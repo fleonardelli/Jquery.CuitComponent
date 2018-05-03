@@ -14,4 +14,4 @@ Utiliza herramientas de generalUtils -> https://github.com/fleonardelli/jquery.g
     Valida que el cuit sea correcto.
     _se ejecuta en el evento change del input#cuit_
 
-* Hecho por fleonardelli para [MOBeats](http://www.mobeats.co)
+*Hecho por [Fernando Leonardelli](http://www.fleonardelli.com) para [MOBeats](http://www.mobeats.co)*
