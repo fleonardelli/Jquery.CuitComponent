@@ -13,3 +13,5 @@ Utiliza herramientas de generalUtils -> https://github.com/fleonardelli/jquery.g
 #### validateCuit:
     Valida que el cuit sea correcto.
     _se ejecuta en el evento change del input#cuit_
+
+* Hecho por fleonardelli para [MOBeats](http://www.mobeats.co)
