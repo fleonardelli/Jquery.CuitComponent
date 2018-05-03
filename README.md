@@ -2,6 +2,7 @@
 
 
 Componente de jQuery para el manejo de CUIT en Argentina.
+Utiliza herramientas de generalUtils -> https://github.com/fleonardelli/jquery.generalUtils
 
 ## Methods:
 
