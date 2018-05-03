@@ -1,3 +1,8 @@
+/*
+    Jquery.CuitComponent
+    Copyright (c) 2018 - Fernando Damian Leonardelli (fleonardelli.com)
+    Version 1.0
+*/
 var cuit = (function(){
     var elements = {
         cuit: $('#cuit')
@@ -18,17 +23,17 @@ var cuit = (function(){
        
     };
 
-    //devuelve el cuit limpio, sin -
-    var getCleanCuit = function(){
-        return elements.cuit.val().split("-").join('')
-    }
-
     //------- Public methods -----
     //inicializa el objeto
     var initialize = function(e){
         suscribeEvents();
     }
-
+    
+    //devuelve el cuit limpio, sin -
+    var getCleanCuit = function(){
+        return elements.cuit.val().split("-").join('')
+    }
+    
     //valida si el cuit es correcto. Retorna true/false
     var validateCuit = function() {
     inputString = getCleanCuit().toString();
